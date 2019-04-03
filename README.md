@@ -150,7 +150,7 @@ venv\Scripts\deactivate.bat
 			- vscode 폴더로 열면 해당 폴더를 기준으로 프로젝트로 인식 
 	- Code Runner : Context Menu의 Run Code (Ctrl+Alt+N)
 		- 코드 셀렉션 부분 코드 실행 및 전체 파일 실행 
-		- virual 환경 지원 안함 
+		- virtual 환경 지원 안함 
 
 ![image](https://user-images.githubusercontent.com/5927142/55136321-7655ce80-5171-11e9-8c3d-6adf59bc0b95.png)
 
@@ -163,3 +163,46 @@ venv\Scripts\deactivate.bat
 ![image](https://user-images.githubusercontent.com/5927142/55137002-28da6100-5173-11e9-80c3-fa44e060cd06.png)
 
 
+### 4. 기타 개발환경 
+- Chocolatey 
+	- The package manager for Windows
+	- https://chocolatey.org/
+	- Install : https://chocolatey.org/install
+```
+choco install googlechrome -y
+choco install 7zip -y
+choco install conemu -y
+choco install vscode -y
+choco install python -y
+choco install dotnetcore-sdk -y
+choco install d2codingfont -y
+choco install git -y
+choco install tortoisegit -y
+choco install curl -y
+
+choco install fiddler -y
+choco install filezilla -y
+choco install dbeaver -y
+```
+
+
+
+- ConEmu : cmd 대체 툴 
+	- ConEmu-Maximus5 is a Windows console emulator with tabs, which represents multiple consoles as one customizable GUI window with various features.
+	- https://conemu.github.io/ 
+```bat
+choco install conemu
+```
+
+- MSYS2 : Git 설치 디렉토리에 위치
+	- Add PATH : C:\Program Files\Git\usr\bin
+```
+MSYS2 is a software distro and building platform for Windows
+At its core is an independent rewrite of MSYS, based on modern Cygwin 
+(POSIX compatibility layer) and MinGW-w64 with the aim of better interoperability with native Windows software. 
+It provides a bash shell, Autotools, revision control systems and the like for building native Windows applications using MinGW-w64 toolchains.
+```
+
+- WSL : Windows Subsystem for Linux 
+	- Windows 10
+	- https://docs.microsoft.com/ko-kr/windows/wsl/install-win10
