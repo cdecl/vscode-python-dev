@@ -26,8 +26,9 @@ choco install vscode -y
 	- Install extensions to add new languages, themes, debuggers, and to connect to additional services
 
 #### 1.3. Getting Started, Top Extensions
-- https://code.visualstudio.com/docs
-- https://marketplace.visualstudio.com/
+- Getting Started : https://code.visualstudio.com/docs
+	- Top Extensions : https://marketplace.visualstudio.com/
+- Awesome-vscode : https://github.com/viatsko/awesome-vscode
 
 #### 1.4. 추천 Extensions 
 - C/C++ : MS 배포 C/C++ 언어지원   
